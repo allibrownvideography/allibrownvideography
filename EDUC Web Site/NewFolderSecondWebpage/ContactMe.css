@@ -1,0 +1,28 @@
+body{background: lightgray;}
+
+h4{background-image: url("Images3/filmroll.jpg");
+background-repeat: repeat-x;
+background-position:5px -5px;
+background-color: black;
+color: blue;
+background-color: white;
+text-shadow: 2px 2px white;
+padding: 40px;
+font-family: arial;
+text-align: center;
+}
+
+.formtitles {text-decoration: underline;}
+
+#d1 {color: white;
+font-family: Garamond;
+font-weight: 500;
+text-align: center;
+font-size: 150%;
+line-height: 200%;
+text-indent: 10px;
+background-color: blue;
+text-shadow: 1px 1px black;
+border: 10px yellow;
+border-width: thick;
+border-style: groove;}

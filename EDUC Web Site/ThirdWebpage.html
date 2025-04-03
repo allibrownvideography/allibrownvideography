@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en" >
+	<head>
+		<meta charset= "utf-8" >
+		<title>Brown, Past Work
+		</title>
+		<style>
+			h1{color:blue;}
+		</style>
+		<link href = "PastWork.css" rel = "stylesheet">
+		<script>
+			function swapCSSStyle(x,y)
+			{var oldlink = document.getElementsByTagName("link").item(y);
+			var newlink = document.createElement("link")
+			newlink.setAttribute("rel","stylesheet");
+			newlink.setAttribute("href",x);
+			document.getElementsByTagName("head").item(y).replaceChild(newlink, oldlink);}	
+		</script>
+	</head>
+	<body>
+		<img id="absolute" src= "Images3/download.png" style = "width: 50px; Height: 50px"
+		alt = "HAA">
+		<button onClick="swapCSSStyle('PastWork.css', 0);">Style 1 </button>
+		<button onclick="swapCSSStyle('PastWork4.css', 0);">Style 2 </button>
+		<h1> Past Work </h1>
+		<h2 id="oneside"> I've been fortunate to work on many memorable projects, and here are some of my favorites </h2>
+		<h5 style="color:Blue;" id = "round"> <a href = "NewFolderSecondWebpage/ContactMe.html"> Contact Me </a> </h5>
+		<h5> <a href = "AlliBrownFilmPortfolio.html"> Home </a> </h5>
+		<h5> <a href="AlliBrownFilmPortfolio.html#AboutMe"> Jump to About Me</a> </h5>
+
+
+		<video width="320" height="240" controls>
+			<source src="Allison-Brown-Video-Samples/Cheer-Hype.mp4" type="audio/mp4">
+				Your browser does not support the video element.
+			</video>
+			<video width="320" height="240" controls>
+			<source src="Allison-Brown-Video-Samples/Dance-Hype.mp4" type="audio/mp4">
+				Your browser does not support the video element.
+			</video>
+			<video width="320" height="240" controls>
+			<source src="Allison-Brown-Video-Samples/Interview.mp4" type="audio/mp4">
+				Your browser does not support the video element.
+			</video>
+			<a href="https://www.youtube.com/@UDbiweekly/videos">
+			<img src="Images3/Biweekly.JPG" Style="height:200px;width:300px;" alt = "Biweekly Youtube"></a>
+			<p> <strong> Other External Links to My Work </strong> </p>
+			<p> <a href= "https://www.youtube.com/watch?v=rDOWd_M82Ak"> Private School-YouTube </a> </p>
+			<p> <a href= "https://www.youtube.com/watch?v=bA9utLelQ6M"> Little Guitar Boy-YouTube </a> </p>
+			<hr>
+		<p> This web page is owned by Alli Brown. My email address is <a href="mailto:allib@udel.edu">allib@udel.edu. </a> </p>
+		
+	</body>
+</html>

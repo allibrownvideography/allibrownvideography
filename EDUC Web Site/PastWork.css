@@ -1,0 +1,54 @@
+h1{color: white;
+font-family: Garamond;
+font-weight: 800;
+text-align: center;
+font-size: 300%;
+line-height: 200%;
+text-indent: 10px;
+background-color: blue;
+text-shadow: 1px 1px black;
+border: 10px yellow;
+border-width: thick;
+border-style: groove;
+margin-bottom: 0px;}
+
+h2{color: white;
+font-family: Garamond;
+background-color: blue;
+padding-top: 30px;
+padding-left: 10px;
+padding-bottom: 50px;
+padding-right: 10px;
+margin-top: 0px;
+margin-bottom: 50px;
+font-style: italic;}
+
+#absolute {position: absolute;
+top: 60px;
+left:20px}
+
+body{background: lightgray;}
+
+video{margin-left: 25px;
+margin-right: 25px;}
+
+img{margin-left: 25px;
+margin-right: 25px;}
+
+h4{background-image: url("Images3/filmroll.jpg");
+background-repeat: repeat-x;
+background-position:5px -5px;
+background-color: black;
+color: blue;
+background-color: white;
+text-shadow: 2px 2px white;
+padding: 40px;
+font-family: arial;
+text-align: center;
+}
+
+
+#oneside{border-bottom: 10px yellow;
+border-bottom-width: thick;
+border-bottom-style: groove;
+margin-bottom: 0px;}

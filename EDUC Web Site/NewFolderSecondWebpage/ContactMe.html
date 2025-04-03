@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en" >
+	<head>
+		<meta charset= "utf-8" >
+		<title>Brown, Contact Me
+		</title>
+		<link href = "ContactMe.css" rel = "stylesheet">
+		<script>
+			function swapCSSStyle(x,y)
+			{var oldlink = document.getElementsByTagName("link").item(y);
+			var newlink = document.createElement("link")
+			newlink.setAttribute("rel","stylesheet");
+			newlink.setAttribute("href",x);
+			document.getElementsByTagName("head").item(y).replaceChild(newlink, oldlink);}	
+		</script>
+	</head>
+	<body>
+		<div id="d1">
+		<button onClick="swapCSSStyle('ContactMe.css', 0);">Style 1 </button>
+		<button onclick="swapCSSStyle('ContactMe2.css', 0);">Style 2 </button>
+		<h1 class="Head"> Contact Me! </h1>
+		<p class="Head"> <strong> Or Email me @allib@udel.edu </strong> </p>
+	</div>
+	<p> <a href="../ThirdWebpage.html"> Past Work </a> </p>
+		<p> <a href="../AlliBrownFilmPortfolio.html">Home </a> </p>
+		<div id= "bottomofsidebar"> </div> 
+		<form method="post" action="mailto:allib@udel.edu">
+			<p > <strong class="formtitles"> Please fill out this form if you would like to work together</strong> <br>
+				First Name: <input type= "text" name="firstname" value=""><br>
+				Last Name: <input type= "text" name="lastname" value=""><br>
+			</p>
+		<!-- This form is going to be able to give visitors the chance to contact me -->
+		<p class="formtitles"> <strong> Why do You Want to Work With Me? </strong> <br></p>
+		<input type="checkbox" name="whywork" value="Collab" > Collab <br>
+		<input type="checkbox" name="whywork" value="Freelance" > Freelance <br>
+		<input type="checkbox" name="whywork" value="BrandDeal" > Brand Deal <br>
+		<br> <h3 class="formtitles"> What Type of Project? </h3>
+		<input type="radio" name="project" value="LongTerm" > Long-Term <br>
+		<input type="radio" name="project" value="ShortTerm" > Short-Term <br>
+		<input type="radio" name="project" value="Other" checked = "checked"> Other <br>
+		<br> <h3 class="formtitles"> What Genre is our Project? </h3>
+		<select name="genre">
+			<option value="Comedy"> Comedy </option>
+			<option value="Highlights"> Highlights </option>
+			<option value="Interview"> Interview </option>
+		</select>
+		<h3 class="formtitles"> Where are you Located? </h3>
+		<input list="WhatDoYouWantToSee?">
+			<datalist id="WhatDoYouWantToSee?">
+				<option value="Pennsylvania">
+				<option value="New York City">
+				<option value="Delaware">
+				<option value="other">
+			</datalist>
+			<p class="formtitles"> <strong> Any Other Questions/Comments?</strong> <br> </p>
+		<textarea name="comments" rows="10" cols="48">Default text goes here</textarea><br>
+		<p> Submit the form below <br>
+		<input type = "submit" value="subscribe"> <input type = "reset">
+		<input type = "button" value = "Not Working?"
+		onClick = "alert('Email allib@udel.edu')"> </p>
+		</form>
+		<!-- Submit button will let me know that someone has filled out the form -->
+		<hr>
+		<p> This web page is owned by Alli Brown. My email address is <a href="mailto:allib@udel.edu">allib@udel.edu. </a> </p>
+	</body>
+</html>

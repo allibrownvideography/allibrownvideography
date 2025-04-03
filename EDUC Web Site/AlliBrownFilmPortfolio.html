@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en" >
+	<head>
+		<meta charset = "utf-8" >
+		<title> Brown, Portfolio Home
+		</title>
+		<style>
+			td {
+				border-style:solid;
+				border-width: 2px;
+				border-color:blue;
+				padding: 3px;
+			}
+			table
+				{
+				Border-style:solid;
+				border-width: 2px;
+				border-color:Gold;
+				padding: 1px;
+				}
+			</style>
+		<link href = "HomeCSS.css" rel = "stylesheet">
+		<script>
+			function swapCSSStyle(x,y)
+			{var oldlink = document.getElementsByTagName("link").item(y);
+			var newlink = document.createElement("link")
+			newlink.setAttribute("rel","stylesheet");
+			newlink.setAttribute("href",x);
+			document.getElementsByTagName("head").item(y).replaceChild(newlink, oldlink);}	
+		</script>
+	</head>
+	<body>
+		<hr id="top">
+		<h1 id="me"> Alli Brown's Film Portfolio </h1>
+		<button onClick="swapCSSStyle('HomeCSS.css', 0);">Style 1 </button>
+		<button onclick="swapCSSStyle('Home2.css', 0);">Style 2 </button>
+		<h2 style="color:Blue;" id = "round"> Videographer | Photographer | <a href = "NewFolderSecondWebpage/ContactMe.html"> Contact Me | </a> <a href = "ThirdWebpage.html"> Past Work </a> </h2>
+
+		<h3 id = "AboutMe"> About Me </h3> 
+		<img id="float" src = "Images3/me.jpg" style = "width: 300px; Height: 350px"
+		alt = "me">
+		<div id="sidebar1">
+		I have always loved to create films ever since I was little. I started college as an undecided major. The summer of my freshman year to sophomore year, I had the opportunity to PA on the set of "The Hail Mary". I loved what I was doing on set and realized that this is what I wanted to go into. Since then, I have been a PA for several other companies and created projects that highlight my style and let me express my creative freedom. 
+		<div id= "bottomofsidebar1"></div> </div>
+		<p id="endaboutme"> </p> <br> <hr>
+			<h3> Past work </h3> 
+			<img id="floatr" src = "Images3/hailmary.JPG" style = "width: 350px; Height: 300px"
+		alt = "HAA">
+		<div id="sidebar"> 
+		Below are the project genres and titles that I have worked on throughout the years:
+		<ul><li> STN49: The Biweekly Show
+			<ol><li>TOS Monster</li>
+				<li>Private School</li>
+			</ol> </li>
+			<li> Hens All Access
+				<ol><li>Cheer Highlight </li>
+					<li>Dance Highlight </li>
+				</ol> </li>
+			<li> News
+				<ol><li>Career Closet</li>
+					<li>Decision Day </li>
+				</ol> </li>
+		</ul>
+		<div id= "bottomofsidebar"></div> </div>
+		<p id="endpastwork"> 
+		</p> <br> <hr> <h3> Companies I have worked for in the past </h3> 
+		<img src = "Images3/HAA.jpg" style = "width: 350px; Height: 200px"
+		alt = "HAA" id="p2">
+		<div id="sidebar2">
+		<ol>
+			<li> A Channel of Peace </li>
+			<li> STN49: The Biweekly Show </li>
+			<li> Hens All Access </li>
+		</ol>
+		<table>
+				<tr>
+					<th>2021</th>
+					<th>2022</th>
+					<th>2023</th>
+				</tr>
+				<tr>
+					<td>News </td>
+					<td> STN49: The Biweekly Show</td>
+					<td> Hens All Access</td>
+				</tr>
+				<tr>
+					<td> Career Closet <br> Decision Day </td>
+					<td>TOS Monster <br> Private School</td>
+					<td>Cheer Highlight <br> Dance Highlight </td>
+				</tr>
+			</table>
+			<div id= "bottomofsidebar2"></div> </div>
+		<p> <a href="#top">Back to top</a></p>
+		<hr>
+		<p> This web page is owned by Alli Brown. My email address is <a href="mailto:allib@udel.edu">allib@udel.edu. </a> </p>
+	</body>
+</html>
